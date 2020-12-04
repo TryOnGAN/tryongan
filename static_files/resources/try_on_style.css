@@ -1,0 +1,95 @@
+.hidden-radio {
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 2px solid #f00;
+}
+
+#buttons{
+  width:"20%";
+}
+
+.title {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px;
+}
+
+.video{
+  width:50%;
+  margin:0 auto;
+  padding-top:3%;
+
+}
+
+.outputTitle{
+  width: 100%;
+  padding: 0px;
+  margin-top: 265px;
+}
+
+#contact{
+  text-align:center;
+}
+
+.abstract{
+  text-align: justify;
+  text-justify: inter-word;
+  width:50%;
+  margin:0 auto;
+}
+
+.output {
+  display: inline-block;
+}
+#output {
+ position: relative;
+ width: 250px;
+ height:250px;
+ display: inline-block;
+}
+.hidden {
+  opacity: 0;
+  transition: opacity .1s;
+}
+
+img{
+  margin-bottom: 0px;
+}
+
+#pants{
+  margin-top: 165px;
+}
+
+#imageResult .selected {
+  display: block;
+}
+#modelResult:hover {
+  opacity: 1;
+  transition: opacity 0.1s;
+  text-align: right;
+}
+
+.choice {
+  display: inline-block;
+  width: 200px;
+  vertical-align:top;
+}
+
+.relResult {
+  position: absolute;
+  left: 0px;
+}
+
+.main {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
