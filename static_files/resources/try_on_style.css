@@ -16,6 +16,13 @@
   width:"20%";
 }
 
+img.gif{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%; 
+}
+
 .title {
   margin: 0 auto;
   width: 100%;
