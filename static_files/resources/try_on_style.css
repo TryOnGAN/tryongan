@@ -20,7 +20,7 @@ img.gif{
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width:50%; 
+  width:35%; 
 }
 
 .title {
@@ -30,7 +30,7 @@ img.gif{
 }
 
 .video{
-  width:50%;
+  width:100%;
   margin:0 auto;
   padding-top:3%;
 

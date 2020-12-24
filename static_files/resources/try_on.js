@@ -1,10 +1,9 @@
-function display(id_name){
-	img = document.getElementById(id_name)
+function display(src_name){
 	output = document.getElementById("interpolatedResult")
 	model_image = document.getElementById("modelBigImage")
-	output.src = img.src
+	output.src = src_name
 
-	if(id_name == "model0"){
+	if(src_name == "model0"){
 		output.classList.add("hidden")
 		model_image.classList.remove("hidden")
 	}
