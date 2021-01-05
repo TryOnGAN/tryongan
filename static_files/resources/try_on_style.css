@@ -16,6 +16,11 @@
   width:"20%";
 }
 
+a.authors{
+  text-decoration: none;
+  color:#1d7484;
+}
+
 img.gif{
   display:block;
   margin-left: auto;
