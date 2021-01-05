@@ -94,6 +94,10 @@ img{
   text-align: right;
 }
 
+.major{
+  background-color: transparent;
+}
+
 .choice {
   display: inline-block;
   width: 200px;
