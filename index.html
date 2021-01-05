@@ -17,7 +17,7 @@
 
 
     <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/AWd7x_3GaZk" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen></iframe>  
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/AWd7x_3GaZk" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen></iframe>  
     </div>
 
 	<div class= "abstract">
@@ -29,21 +29,21 @@
 		<h2>VOGUE Method</h2>
 		<p>We train a pose-conditioned StyleGAN2 network that outputs RGB images and segmentations.</p>
 		<img src="static_files/resources/stylegan.png" alt="" />
-		<p>After training our modified StyleGAN2 network, we run an optimization method to learn interpolation coefficients for each style block. These interpolation coefficients are used to combine style codes of two different images and semantically transfer a region of interest from one image to another.  </p>
+		<p>After training our modified StyleGAN2 network, we run an optimization method to learn interpolation coefficients for each style block. These interpolation coefficients are used to combine style codes of two different images and semantically transfer a region of interest from one image to another. This method can be used for generated StyleGAN2 images or on real images by first projecting the real images into the latent space.  </p>
 		<img src="static_files/resources/optimization.png" alt="">
-    <p>This method can be used for generated StyleGAN2 images or on real images by first projecting the real images into the latent space.</p>
-    <img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif"><br>
 	</div>	
 
 	<div class="abstract">
 		<h2>Generated Image Try-On</h2>
-		<p>VOGUE can transfer garments between different poses and body shapes. It preserves garment details (shape, pattern, color, texture) and person identity. When transferring a shorter garment, VOGUE is able to synthesize skin that is realisitc and consistent with identity.</p>
+		<p>VOGUE can transfer garments between different poses and body shapes. It preserves garment details (shape, pattern, color, texture) and person identity (hair, skin color, pose). </p>
 		<h4>Shirt Try-On</h4>
     <img class="gif" src="static_files/resources/demo-shirts-slow.gif">
+    With VOGUE, the same person can try on shirts of different styles (above). The identity of the person is preserved. When transferring a shorter garment or a different neckline, VOGUE is able to synthesize skin that is realistic and consistent with identity (below). 
 		<img src="static_files/resources/shirt-tryon.png" alt="">
+    Different people can also try on the same shirt (below). The characteristics of the shirt are preserved across different poses and people.
+    <img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif">
 		<h4>Pants Try-On</h4>
     <img class="gif" src="static_files/resources/demo-pants-slow.gif">
-
 		<img src="static_files/resources/pants_tryon.png" alt="">
     </div>
 
