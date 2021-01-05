@@ -11,19 +11,14 @@
   <div id="buttons">
                 <a href="static_files/resources/VOGUE-virtual-try-on.pdf" target="_blank" class="button big wide smooth-scroll-middle"> Paper </a>
                 <a href="https://youtu.be/AWd7x_3GaZk" target="_blank" class="button big wide smooth-scroll-middle"> Video </a>
-                <a href="demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Demo</a>
+                <a href="demo_rewrite.html" target="_blank" class="button big wide smooth-scroll-middle"> Interactive Example</a>
     </div>
 
-  <div class="abstract">
-    <img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif">
-  </div>
 
-  <div class="abstract">
-    <h2>Video</h2>
+
     <div class="video">
-      <video autoplay loop muted controls ><source src="static_files/resources/repeat_demo_video.mov">  </video>  
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AWd7x_3GaZk" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen></iframe>  
     </div>
-  </div>
 
 	<div class= "abstract">
 		<h2>Abstract</h2>
@@ -34,8 +29,10 @@
 		<h2>VOGUE Method</h2>
 		<p>We train a pose-conditioned StyleGAN2 network that outputs RGB images and segmentations.</p>
 		<img src="static_files/resources/stylegan.png" alt="" />
-		<p>After training our modified StyleGAN2 network, we run an optimization method to learn interpolation coefficients for each style block. These interpolation coefficients are used to combine style codes of two different images and semantically transfer a region of interest from one image to another. This method can be used for generated StyleGAN2 images or on real images by first projecting the real images into the latent space. </p>
+		<p>After training our modified StyleGAN2 network, we run an optimization method to learn interpolation coefficients for each style block. These interpolation coefficients are used to combine style codes of two different images and semantically transfer a region of interest from one image to another.  </p>
 		<img src="static_files/resources/optimization.png" alt="">
+    <p>This method can be used for generated StyleGAN2 images or on real images by first projecting the real images into the latent space.</p>
+    <img class="gif" src="static_files/resources/demo-shirts-different-people-slow.gif"><br>
 	</div>	
 
 	<div class="abstract">
@@ -51,7 +48,7 @@
     </div>
 
     <div class="abstract">
-    	<h2>Real Image Try-On</h2>
+    	<h2>Projected Image Try-On</h2>
     	<p>Virtual try-on between two real images is possible by first projecting the two images into the StyleGAN Z+ latent space. Improving projection is an active area of research.
     	<h4>Shirt Try-On</h4>
     	<img src="static_files/resources/tryon_real.png" alt="">
