@@ -1,2 +1,2 @@
-# vogue-try-on.github.io
-# tryongan
+# tryongan.github.io
+
