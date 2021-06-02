@@ -1,2 +1,2 @@
-# tryongan.github.io
+# tryongan.github.io/tryongan
 
